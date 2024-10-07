@@ -12,7 +12,7 @@ class PCDDataset(Dataset):
             point_cloud_dir (string): Directory with all the .pcd files.
             transform (callable, optional): Optional transform to be applied
                 on a sample.
-            downsample (str, optional): Downsampling method ('random' or 'voxel').
+            downsample (str, optional): Downsampling method ('random' or 'voxel'). Have used downsampling with sampling size of 10000 currently.
             num_samples (int, optional): Number of points to sample (for random downsampling).
             voxel_size (float, optional): Voxel size (for voxel grid downsampling).
         """
