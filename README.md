@@ -13,6 +13,8 @@ We use the NYU Depth V2 dataset, which provides RGB and Depth image pairs for in
 RGB and Depth images are combined to generate 3D point clouds.
 Each point is labeled with a semantic category based on the RGB values.
 
+<img src="Images/dataset_viz1.png" alt="Example Image" width="700"/>
+
 ### 2. Point Cloud Generation
 A script is provided to convert the RGB-D images into 3D point clouds. These point clouds are then labeled using the corresponding color information from the images.
 
@@ -63,6 +65,10 @@ python dataset_gen.py
 ```bash
 python data_viz.py
 ```
+
+<img src="Images/raw_pointcloud.png" alt="Example Image" width="500"/>
+<img src="Images/pointcloud_labelled.png" alt="Example Image" width="500"/>
+
 
 ### 3. Split the generated data into train, val and test splits for training:
 
