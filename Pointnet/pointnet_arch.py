@@ -1,16 +1,3 @@
-'''
-Contains classed comprising Point Net Architecture. Usage for each class can 
-be found in main() at the bottom.
-
-TO use: Import Classification and Segmentation classes into desired script
-
-
-
-NOTE:
-This architecture does not cover Part Segmentation. Per the Point Net paper 
-that is a different architecture and is not implemented here.
-'''
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
